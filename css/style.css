@@ -67,3 +67,112 @@
     background: url("../img/pay_hover.png");
     /* background-size: cover */
 }
+/* .carousel{
+    padding: 0;
+    list-style: none;
+  }
+li{
+    margin: 0;
+    float: left;
+    width: 500%;
+  }
+  .owl-item{
+    transition: all 250ms ease-out;
+    transform: translate3d(0px, 0px, 0px) scale(1);
+  } */
+  .card_text{
+    margin: 20px;
+    font-family: 'Montserrat'; 
+    font-weight: 300;
+  }
+.owl-page.active span{
+    background: red;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:#2851c1;
+    border: 3px solid #2851c1;
+    opacity: 0.4;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: white;
+    border: 3px solid #2851c1;
+}
+.more_dots{
+    position: absolute;
+    right: 10;
+    bottom: 10;
+}
+.get_pres{
+    margin-top: 150px;
+    display: flex;
+}
+.card_pres{
+    margin-top: 200px;
+    width: 50%;
+}
+.get_pres_head{
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+.get_pres_text{
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #8b8fa0;
+}
+.get_pres_button{
+    background-image: url('../img/get_pres.png');
+    border: none;
+    width: 362px;
+    height: 76px;
+}
+.get_pres_button:hover{
+    background-image: url('../img/get_pres_hover.png')
+}
+.act{
+    margin-top: 100px;
+}
+.act_head{  
+    font-family: "Montserrat";
+    font-weight: 800;
+    margin-left: 50px;
+}
+.uk-card-body{
+    height: 200px;
+}
+.owl-wrapper{
+    height: 400px;
+}
+.act_img{
+    margin-left: 20px;
+}
+.indicator{
+    position: absolute;
+    right: 20;
+    bottom: 20;
+}
+.list{
+    background-image: url('../img/bg_list.png');
+    background-size: cover;
+    width: 100%;
+    height: 777px;
+}
+.list>ul {
+    list-style: none;
+    padding: 0;
+  }
+  .list>ul>li {
+    padding-left: 20px;
+    margin: 50px;
+    padding-top: 50px;
+    color: white;
+    width: 50%;
+  }
+  .list>ul>li:before {
+    content: url("../img/pointer.png");
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+.list_item{
+    padding-left: 20px
+}

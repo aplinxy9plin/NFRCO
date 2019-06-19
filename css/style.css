@@ -1,8 +1,9 @@
 .sidebar{
     position:  fixed;
-    width: 20%;
+    width: 360px;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
+    /* display: inline-block; */
     /* background: black; */
 }
 .link_menu{
@@ -10,14 +11,15 @@
     margin-top: 80px;
 }
 .main{
-    position: absolute;
-    margin-left: 20%;
-    width: 80%;
+    position: relative;
+    margin-left: 360px;
+    /* width: calc(100%-200px); */
     height: 100%;
+    z-index: 5;
 }
 .logo{
     /* text-align: center; */
-    margin-left: 50px;
+    margin-left: 90px;
     margin-top: 50px;
 }
 .logo_img{
@@ -46,12 +48,13 @@
 }
 .first{
     background-image: url('../img/bg.png');
+    background-size: cover;
     width: 100%;
     height: 100%;
     z-index: 0;
 }
 .first_content{
-    padding-top: 10%;
+    padding-top: 180px;
     padding-left: 5%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -82,8 +85,10 @@ li{
   } */
   .card_text{
     margin: 20px;
+    vertical-align: middle;
     font-family: 'Montserrat'; 
     font-weight: 300;
+    /* margin-top: 70px; */
   }
 .owl-page.active span{
     background: red;
@@ -194,4 +199,7 @@ li{
 }
 .green_list>li::before{
     content: url("../img/green_point.png")
+}
+.uk-card-body{
+    height: 200px;
 }

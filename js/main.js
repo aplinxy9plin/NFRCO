@@ -8,7 +8,7 @@ $(function() {
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        items: 1.5,
+        items: 2,
         addClassActive: true,
         margin: 500,
         stagePadding: 200,

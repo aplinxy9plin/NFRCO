@@ -29,8 +29,18 @@ $(document).ready(function(){
     
     $(".owl-item").css("marginLeft", "50px")
     // 2851c1
+    $(".people").hover(() => {
+        console.log(this.id)
+    })
+    
 });
 function callbackDot(event) {
     console.log("hello")
     $('.owl-page.active span').css("background", 'red')
 }
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }

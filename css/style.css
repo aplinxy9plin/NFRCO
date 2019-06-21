@@ -1,8 +1,12 @@
+body{
+    overflow-x: hidden;
+}
 .sidebar{
     position:  fixed;
     width: 360px;
     height: 100%;
     z-index: 0;
+    overflow-y: auto;
     /* display: inline-block; */
     /* background: black; */
 }
@@ -13,6 +17,9 @@
 .main{
     position: relative;
     margin-left: 360px;
+    right: 0;
+    align: right;
+    margin-right: -15px;
     /* width: calc(100%-200px); */
     height: 100%;
     z-index: 5;
@@ -162,13 +169,15 @@ li{
     height: 777px;
 }
 .list>ul {
+    /* display: inline; */
+    width: 100%;
     list-style: none;
     padding: 0;
   }
   .list>ul>li {
     /* padding-left: 30px; */
-    margin: 50px;
-    padding-top: 50px;
+    margin: 5%;
+    /* padding-top: 50px; */
     color: white;
     width: 50%;
   }
@@ -183,6 +192,7 @@ li{
     margin-left: 40px;
     font-family: 'Montserrat';
     font-weight: 300;
+    font-size: 100%;
 }
 
 .green_list{
@@ -203,3 +213,26 @@ li{
 .uk-card-body{
     height: 200px;
 }
+.peoples{
+    margin-left: 100px;
+}
+.soviet_second{
+    margin-top: 100px;
+}
+.company{
+    margin-top: 100px;
+    /* position: absolute */
+}
+.info_company{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  left: 175px;
+}
+#map {
+    width: 750px;
+    height: 500px;
+    }
